@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Raleway ;
+    src: url(../Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+html{
+    font-family: Raleway ;
+}
+
+body{
+    margin:0;
+   
+}
+
+.banner{
+    background-size: contain;
+    background-image: linear-gradient(180deg, #000000 , #020c13 50%, #000000  );
+    height: 700px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    padding-top: 100px;
+    
+}
+
+.sombra{
+    border-radius: 50%;
+    background: #00000033 ;
+    text-align: center;
+}
+
+.banner-content{
+   
+    height: 393px;
+    width: 510px;
+    left: 586px;
+    top: 56px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+h1{
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 46.96px;
+    padding-bottom: 0px;
+}
+.text-banner-01{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#botao{
+    background-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    text-transform: uppercase;
+    border:  #1472B7 solid 1px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+
+.banner-02{
+    background-color:  #000000;
+    height: 60vh;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+
+}
+
+#course-content{
+    color:white;
+    text-align: center;
+    width: 792px;
+    height: 200px;
+    left: 456px;
+    top:723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#subtitle-01{
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 46.96px;
+    padding-bottom: 16px;
+
+    
+}
+.module{
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 57px;
+    border:  #1472B7  solid 1px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    left: 127px;
+    background: linear-gradient(0deg, #252525, #252525);
+    
+}
+span{
+    color: #33A8DB ;
+    
+}
+.transform-world{
+    height: 363px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: url(../images/woman-code.png);
+    background-size: 100%;
+    text-align: center;
+    border:  #1472B7  solid 1px;
+    
+}
+.title{
+    line-height: 46px;
+    font-size: 40px;
+    height: 141px;
+    width: 244px;
+    margin-left: 198px;
+    margin-top: 90px;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: 3px 2px 0px  #33A8DB ;
+    color: #ffffff;
+    
+}
+
+.banner-03{
+    background-color:  #000000;
+    text-align: center;
+    color: #ffffff;
+    height: 100vh;
+    
+}
+
+#subtitle-02{
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:  #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 46.96px;
+    margin-top: 0px;
+    padding-top: 76px;
+    padding-bottom: 32px;
+}
+
+#text-banner-02{
+    width: 792px;
+    height: 76px;
+    margin-top: 40px;
+    line-height: 18.78px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 310px;
+}
+footer{
+   
+    padding-top: 25px;
+    padding-bottom: 5px;
+    height: 170px;
+    background-image: linear-gradient(180deg, #000000 50%,#020c13);
+    
+}
+#content-footer{
+    
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 80px;
+}
+   
+#link{
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 900;
+}
+
